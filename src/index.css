@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", "Noto Sans", "Liberation Sans", system-ui, sans-serif;
+  background: #0c1612;
+  color: #f3f6f4;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(900px 420px at 50% -80px, rgba(228, 195, 106, 0.16), transparent 55%),
+    #0c1612;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+:focus-visible {
+  outline: 2px solid #e4c36a;
+  outline-offset: 2px;
+}
