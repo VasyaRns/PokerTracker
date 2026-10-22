@@ -5,7 +5,7 @@ export const actionLabel: Record<Action, string> = {
   check: 'Чек',
   call: 'Колл',
   raise: 'Рейз',
-  walk: 'Уок',
+  walk: 'Забрал блайнды',
 }
 
 export const facingLabel: Record<Facing, string> = {
