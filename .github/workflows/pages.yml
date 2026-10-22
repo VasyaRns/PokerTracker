@@ -3,6 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
+      - main
       - cursor/pokertracker-pwa-a0e1
   workflow_dispatch:
 
